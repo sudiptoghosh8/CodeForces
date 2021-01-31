@@ -1,3 +1,4 @@
+//solved
 #include<bits/stdc++.h>
 using namespace std;
 int a1, a2, a3, a4;

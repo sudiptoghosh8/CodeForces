@@ -1,32 +1,42 @@
 #include<bits/stdc++.h>
 using namespace std;
+
 int main()
 {
-    int n,i,t,a,b,c,x,y,z,max;
-    int ar[10000];
+    int n;
+    int count = 0;
     cin>>n;
-    max=0;
-    z=0;
-
-    for(i=0;i<n;i++)
+    for(int i=0; i<n; i++)
     {
-
-        cin>>ar[i];
-        b=ar[i]%90;
-        if(max==b)
+        int temp;
+        cin>>temp;
+        if(temp==5)
         {
-            z=1;
-
+            count++;
         }
     }
-    if(z)
+    if(n==count)
     {
-        cout<<b<<endl;
+        cout<<-1;
+        return 0;
+
     }
-    else{cout<<"5555555550"<<endl;}
+    bool flag = true;
+    for(int i=0; i<count/9; i++)
+    {
+        cout<<555555555;
+        flag = false;
+    }
+    for(int i=0; i<n-count; i++)
+    {
+        cout<<0;
+        if(flag)
+            break;
+    }
 
 
 
 
-   return 0;
+
+    return 0;
 }
