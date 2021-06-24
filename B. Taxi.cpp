@@ -1,0 +1,1 @@
+#include<bits/stdc++.h>using namespace std;int main(){    int n,t,i,a[100],b,c;    cin>>t;    for(i=1;i<=t;i++)    {        cin>>a[i];    }    return 0;}
